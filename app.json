@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/plant/plant"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "博物识别",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1BA0E1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"image/home.png",
+        "selectedIconPath": "image/homeselected.png",
+        "text": "首页"
+      },
+      {
+      "pagePath": "pages/plant/plant",
+      "iconPath": "image/image.png",
+      "selectedIconPath": "image/image_HL.png",
+      "text": "识别"
+      }]
+  }
+}
