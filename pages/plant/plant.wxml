@@ -1,0 +1,8 @@
+
+<view class='show'>
+  <image class='show-img' mode='widthFix' src='{{img}}'></image>
+</view>
+<button bindtap='onCameraTap' class='up'>点击上传图片</button>
+<view class='analysis-result'>
+  <text class="result">{{names}}</text>
+</view>
