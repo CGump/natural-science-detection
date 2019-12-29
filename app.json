@@ -17,16 +17,18 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath":"pages/index/index",
-        "iconPath":"image/home.png",
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
         "selectedIconPath": "image/homeselected.png",
         "text": "首页"
       },
       {
-      "pagePath": "pages/plant/plant",
-      "iconPath": "image/image.png",
-      "selectedIconPath": "image/image_HL.png",
-      "text": "识别"
-      }]
-  }
+        "pagePath": "pages/plant/plant",
+        "iconPath": "image/image.png",
+        "selectedIconPath": "image/image_HL.png",
+        "text": "识别"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
