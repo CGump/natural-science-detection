@@ -23,7 +23,7 @@ Page({
         })
         // console.log('临时路径：' + res.tempFilePaths[0])
         wx.uploadFile({
-          url: 'http://111.229.46.96:5000/test',
+          url: 'https://whyc1tud.qcloud.la',
           filePath: res.tempFilePaths[0],
           name: 'image',
           header: {
